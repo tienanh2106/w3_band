@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="header" class="header">
+            <div class="header-navbar">
+                <ul class="header-list">
+                    <li class="header-item"><a href="#" class="header-item__link">Home</a></li>
+                    <li class="header-item"><a href="#band" class="header-item__link">Band</a></li>
+                    <li class="header-item"><a href="#member" class="header-item__link">Tour</a></li>
+                    <li class="header-item"><a href="#contact" class="header-item__link">contact</a></li>
+                    <li class="header-item"><a href="#" class="header-item__link">More<i
+                                class="header-item__icon fas fa-angle-down"></i></a>
+                        <ul class="header-item__link__subnav">
+                            <li class="header-item__link__subnav-item"><a class="header-item__link__subnav-link"
+                                    href="#"> merchandise</a></li>
+                            <li class="header-item__link__subnav-item"><a class="header-item__link__subnav-link"
+                                    href="#">extras</a></li>
+                            <li class="header-item__link__subnav-item"><a class="header-item__link__subnav-link"
+                                    href="#">media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="header-search">
+                <ul class="header-search_icons">
+                    <li class="header-search__icon"><i class=" fa-solid fa-magnifying-glass"></i></li>
+                    <li class="header-menu__icon" onclick="mobileMenuOnclick ()"> <i class=" fa-solid fa-bars"></i></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="slider">
+            <img class="slider-img" src="./assets/img/slider.jpg" alt="slider">
+            <span class="slider-content">Los Angeles <br> Los Angeles we are coming </span>
+        </div>
+
+        <div class="container">
+            <div id="band" class=" container-band">
+                <div class="container-band-content">
+                    <ul class="container-band-content__list">
+                        <li class="container-band-content__item">The Band</li>
+                        <li class="container-band-content__item">This is our band website. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="member" class="container-member">
+                <div class="container-member-content">
+                    <ul class="container-member-content__list">
+                        <li class="container-member-content__item">The Member</li>
+                        <ul class="container-member-content__list-child">
+                            <li class="container-member-content__item"><img class="container-member-content__item-img"
+                                    src="./assets/img/slider.jpg" alt="img member">
+                                <span class="container-member-content__item-name">Name : </span>
+                                <span class="container-member-content__item-age">Age : </span>
+                            </li>
+                            <li class="container-member-content__item"><img class="container-member-content__item-img"
+                                    src="./assets/img/slider.jpg" alt="img member">
+                                <span class="container-member-content__item-name">Name : </span>
+                                <span class="container-member-content__item-age">Age : </span>
+                            </li>
+                            <li class="container-member-content__item"><img class="container-member-content__item-img"
+                                    src="./assets/img/slider.jpg" alt="img member">
+                                <span class="container-member-content__item-name">Name : </span>
+                                <span class="container-member-content__item-age">Age : </span>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact" class="container-contact">
+                <div class="container-contact-content">
+                    <span class="container-contact-content__title">contact</span>
+                    <span class="container-contact-content__address">Chicago, US</span>
+                    <span class="container-contact-content__address">Phone: +00 151515</span>
+                    <span class="container-contact-content__address">Email: mail@mail.com</span>
+                    <span class="container-contact-content__text">Fan? Drop a note!</span>
+                    <div class="input-list">
+                        <input type="text" class="input-list__item" placeholder="Name">
+                        <input type="text" class="input-list__item" placeholder="Email">
+                        <input type="text" class="input-list__item" placeholder="Message">
+                        <div class="btn-center"><button class="input-list__btn ">SEND</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-map">
+                <img src="./assets/img/map.jpg" alt="map" class="container-map__img">
+            </div>
+        </div>
+        <div class=" footer">
+            <div class="footer-content">
+                <span class="footer-content__title">
+                    Edit by Do Tien Anh
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
